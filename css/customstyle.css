@@ -1,0 +1,292 @@
+/*Disable prettyPhoto's social icons*/
+
+@media only screen and (max-width: 760px) {
+    #isMobile {
+        display: inline !important;
+    }
+}
+
+body {
+    font-size: 15px !important;
+}
+
+.span3 {
+    overflow: hidden !important;
+}
+
+#works {
+    background: #f2f2f2 !important;
+}
+
+#about p {
+    text-align: justify !important;
+}
+
+.disable-scrolling {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+.pp_social {
+    display: none !important;
+}
+
+.navbar-inner {
+    background: #004ba0 !important;
+    box-shadow: 0px 0px 20px black !important;
+}
+
+#fab {
+    box-shadow: 0px 0px 10px 1px #2D2D2D !important;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background: #1BAC91;
+    position: fixed;
+    bottom: 1%;
+    left: 95%;
+}
+
+#scroll {
+    font-size: 40px;
+    color: black;
+}
+
+.spacer,
+#services,
+#contact {
+    background: #42a5f5;
+}
+
+.services-icons {
+    font-size: 8em;
+    color: #3C3C3C
+}
+
+.services-icon-enlarge {
+    color: #1bac91;
+    font-size: 11em;
+}
+
+.special {
+    padding-top: 20px !important;
+}
+
+
+/*ICON ANIMATION*/
+
+@keyframes enlarge {
+    from {
+        font-size: 10em;
+    }
+    to {
+        font-size: 14em;
+    }
+}
+
+.services-text-hover {
+    color: black !important;
+}
+
+#progress {
+    background: transparent;
+    background-image: -webkit-gradient(linear, left right, left right, from(black), to(red));
+    background-image: -webkit-linear-gradient(left, black, blue);
+    background-image: -moz-linear-gradient(left, black, blue);
+    background-image: linear-gradient(to right, black, blue 40%, red);
+    width: inherit;
+    height: 5px;
+}
+
+.service-box p {
+    text-align: center;
+    font-size: 13px !important;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+@media(max-width:600px) {
+    #header-wrapper {
+        background: #444 url(material/header-mobile.png) !important;
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat !important;
+        padding-top: 0px !important;
+        padding: 0px !important;
+        min-height: 520px !important;
+    }
+    .navbar .brand a {
+        font-size: 1em;
+    }
+}
+
+.portfolio-item {
+    margin: 10px !important;
+    box-shadow: 3px 3px 3px -3px #999, 3px 3px 3px -2px #999, -3px 3px 3px -2px #999 !important;
+    border-radius: 5px;
+}
+
+
+/*Notification banner*/
+
+#status {
+    display: none;
+    font-size: 30px !important;
+}
+
+.notification {
+    display: none;
+    transition: bottom 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    box-shadow: 3px 3px 3px -2px #999, 3px 3px 3px -3px #999, -3px 3px 3px -3px #999 !important;
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    bottom: 200%;
+    z-index: 1000;
+    text-align: center;
+    background: transparent;
+}
+
+.notification#success {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: white;
+    text-align: center;
+    background: #1BAC91;
+}
+
+.notification#fail,
+.notification#illegal,
+.notification#error,
+.notification#general {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: white;
+    text-align: center;
+    background: #ED6469;
+}
+
+#submit {
+    transition: all 1s;
+}
+
+
+/*Submit button spinner*/
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#spinner {
+    font-size: 0px;
+    animation: spinner 1s infinite linear;
+}
+
+.fa-window-maximize {
+    font-size: 30px;
+}
+
+
+/*FORM VALIDATION*/
+
+.has-error {
+    border: 2px solid #ED6469 !important;
+}
+
+.has-success {
+    border: 2px solid #1BAC91 !important;
+}
+
+
+/*END FORM VALIDATION*/
+
+.modal {
+    background: #004BA0;
+    border-radius: 5px;
+}
+
+.modal-header h3 {
+    color: white !important;
+    font-size: 16px;
+}
+
+.modal-body img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.modal-body {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.modal-footer {
+    background: #42A5F5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.modal-footer ul {
+    text-align: center;
+    list-style: none;
+}
+
+.modal-footer li {
+    color: white;
+    display: inline;
+}
+
+#project-desc {
+    width: 50% !important;
+    letter-spacing: 0.08em;
+}
+
+#project-link {
+    display: block;
+    margin: 10px;
+}
+
+#project-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 0.08em;
+    padding: 3px 10px 3px 10px;
+    background: #1BAC91;
+}
+
+#project-link a:hover {
+    background: #43413E;
+}
+
+@media only screen and (max-width: 760px) {
+    .modal-content {
+        width: 85%;
+    }
+    #success p,
+    #fail p,
+    #illegal p,
+    #error p {
+        font-size: 12px;
+    }
+    .modal-header h3 {
+        font-size: 14px;
+    }
+    #fab {
+        left: 85%;
+        padding: 0px 10px 0px 10px;
+    }
+}
