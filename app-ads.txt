@@ -1,2 +1,2 @@
-mopub.com, [pub id], DIRECT, 74b46c0ea83967ca
+mopub.com, e0bcbc7bb37942d09bfe552aec0f3669, DIRECT, 74b46c0ea83967ca
 rubiconproject.com, 21648, RESELLER, 0bfd66d529a55807
