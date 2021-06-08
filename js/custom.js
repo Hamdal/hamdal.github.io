@@ -1,7 +1,4 @@
 jQuery(document).ready(function($) {
-
-    window.alert(window.origin.replace('www.', '').split('.').length);
-
     $('.scrollup').click(function() {
         $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
